@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {{>link}}
+
+</head>
+<body>
+
+    {{>nav}}
+
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-6 col-11 mx-auto ">
+                <div class="first_line">
+                <input type="text" name="cityName" id="inputCity" placeholder="Enter the City Name">
+                <button type="submit" id="submit-Btn">Submit</button>
+                </div>
+
+            
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-10 mx-auto ">
+                <div class="DisplayContent">
+                    <div class="row date-line">
+                        <p>Tuesday</p>
+                        <p>13oct</p>
+                    </div>
+                    <div class="row temp-line">
+                        <h3>Get Output Here</h3>
+                        
+                        <div class="display-live-temp">
+                            <h1>0 &deg;C</h1>
+                            <i class="fa-solid fa-sun"></i>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{>footer}}
+
+
+    {{!-- <script src="/reload/reload.js"></script> --}}
+
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
